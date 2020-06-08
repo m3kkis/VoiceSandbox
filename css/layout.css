@@ -1,0 +1,157 @@
+hr {
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+p {
+    margin-bottom: 1rem !important;
+}
+
+.hide-me{
+    display: none;
+}
+
+#voice_text_input{
+    width: 100%;
+}
+
+#btn_add_voice_text{
+    background-color: #1EAEDB;
+    color: white;
+    width: 100%;
+}
+
+#language_select{
+    width: 100%;
+}
+
+#btn_start_listen{
+    background-color: #64d660;
+    color: white;    
+}
+
+#btn_start_pause{
+    background-color: #ffc859;
+    color: white;  
+}
+
+#btn_stop_listen{
+    background-color: #ff5959;
+    color: white;    
+}
+
+
+#btn_clear_commands{
+    background-color: #ff5959;
+    color: white;
+    float: right;
+    padding: 5px !important;
+    height: 26px !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+    line-height: 0px !important;
+}
+
+#btn_clear_output{
+    background-color: #ff5959;
+    color: white;
+    float: right;
+    padding: 5px !important;
+    height: 26px !important;
+    font-size: 10px !important;
+    font-weight: bold !important;
+    line-height: 0px !important;
+}
+
+.btn_controls{
+    width: 150px;
+}
+
+.btn_controls:disabled{
+    background-color: darkgrey !important;
+}
+
+.vcenter{
+    position: relative;
+    top: 50%;
+    transform: translate(0%,-50%);
+    -moz-transform: translate(0%,-50%);
+    -webkit-transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+    text-align: center;
+}
+
+.one_command{
+    background-color: #dbf5ff;
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 1%;
+    overflow:auto;
+    border-radius: 5px;
+}
+
+.one_output{
+    border: 1px solid#64d660;
+    border-radius: 5px;
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 1%;
+    overflow:auto;
+
+}
+
+.one_output_nomatch{
+    border: 1px solid#ff5959;
+    border-radius: 5px;
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 1%;
+    overflow:auto;
+}
+
+.one_command_text{
+    width: 95%;
+    float: left;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.one_command_del{
+    text-align: center;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.default_list_text{
+    color:rgba(0, 0, 0, 0.5);
+    font-style: italic;
+}
+
+#popup_alerts{
+    position: absolute;
+    width: 100%;
+}
+
+.alert_container{
+    width: 100%;
+    height: 22px;
+    border: 2px solid #ffbb54;
+    background-color: #ffda54;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 1%;
+}
+
+.alert_state{
+    margin-left: 1%;
+}
+
+.alert_text{
+    margin-left: 1%;
+}
+
+.alert_dismiss{
+    margin-right: 1%;
+    float: right;
+}
